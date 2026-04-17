@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "text": "I hate the words chunder , vomit and puke . BUUH ."
+    },
+    "annotations": []
+  },
+  {
+    "id": 2,
+    "data": {
+      "text": "♥ . . ) ) ( ♫ . ( ړײ ) ♫ . ♥ . « ▓ » ♥ . ♫ . . ╝ ╚ . . ♫ Happy New Year"
+    },
+    "annotations": [
+      {
+        "id": 1,
+        "result": [
+          {
+            "id": "93125522-3",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 27,
+              "end": 28,
+              "text": "♥",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "id": "78481778-0",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 47,
+              "end": 50,
+              "text": "╝ ╚",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "id": "f9e31bf0-d",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 55,
+              "end": 71,
+              "text": "♫ Happy New Year",
+              "labels": [
+                "ORG"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "data": {
+      "text": "Alesan kenapa mlm kita lbh srg galau Poconggg '\"' TwitFAKTA : Otak lebih aktif di malam hari dari pada di pagi hari . # TwitFAKTA '\"'"
+    },
+    "annotations": [
+      {
+        "id": 1,
+        "result": [
+          {
+            "id": "74993910-9",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 6,
+              "text": "Alesan",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "id": "bebeafb7-8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 14,
+              "end": 22,
+              "text": "mlm kita",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "id": "78faaddc-8",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 37,
+              "end": 45,
+              "text": "Poconggg",
+              "labels": [
+                "GPE"
+              ]
+            }
+          },
+          {
+            "id": "f2ea99b0-1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 62,
+              "end": 66,
+              "text": "Otak",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "id": "ac63c892-1",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 73,
+              "end": 115,
+              "text": "aktif di malam hari dari pada di pagi hari",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "data": {
+      "text": "Complete Tosca on the tube http://t.co/O90deSLB"
+    },
+    "annotations": [
+      {
+        "id": 1,
+        "result": [
+          {
+            "id": "440ce26a-4",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 14,
+              "text": "Complete Tosca",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "id": "61b07834-2",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 27,
+              "end": 47,
+              "text": "http://t.co/O90deSLB",
+              "labels": [
+                "GPE"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "data": {
+      "text": "Think you call that smash and grab . # Gateshead 's media man just admitted to me it was '\"' daylight robbery '\"' . Shaw 's only touch was his goal ."
+    },
+    "annotations": [
+      {
+        "id": 1,
+        "result": [
+          {
+            "id": "49eaab08-6",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 39,
+              "end": 48,
+              "text": "Gateshead",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "id": "94a9c718-d",
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 116,
+              "end": 120,
+              "text": "Shaw",
+              "labels": [
+                "ORG"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
