@@ -14,7 +14,6 @@ We annotated the data using Label Studio and focused on the following entity typ
 - PERSON (PER)
 - ORGANIZATION (ORG)
 - LOCATION (LOC)
-- PRODUCT
 
 A total of 300+ documents were manually annotated and used to train and evaluate custom models.
 
@@ -75,23 +74,6 @@ The improvement from Batch 1 to Batch 2 shows that refining annotation guideline
 - Precision: 0.6250  
 - Recall:    0.1562  
 - F1 Score:  0.2500  
-
-**Per-Entity Results**
-
-- **LOC**
-  - Precision: 1.0000  
-  - Recall:    0.2857  
-  - F1 Score:  0.4444  
-
-- **PER**
-  - Precision: 0.3333  
-  - Recall:    0.0714  
-  - F1 Score:  0.1176  
-
-- **ORG**
-  - Precision: 0.6667  
-  - Recall:    0.1818  
-  - F1 Score:  0.2857  
 
 **Interpretation:**  
 Model 1 had relatively high precision but extremely low recall, meaning it failed to identify many entities. This was primarily due to limited training data.
