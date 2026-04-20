@@ -92,7 +92,15 @@ Model 2 shows a large improvement in recall and overall F1 score. This improveme
 
 ---
 
-### Key Comparison
+### Cross-Domain Inference
+
+We applied our trained Model 2 to a different dataset outside the Twitter domain to evaluate generalization. While the model was able to identify some entities correctly, performance was noticeably worse compared to in-domain results.
+
+Most errors occurred because the model had learned patterns specific to Twitter, such as informal naming conventions and token structures, which did not transfer well to more structured text. This highlights that NER models trained on domain-specific data often struggle when applied to new domains without additional fine-tuning.
+
+---
+
+### Model Comparison
 
 | Metric   | Model 1 | Model 2 |
 |----------|--------|--------|
@@ -102,13 +110,13 @@ Model 2 shows a large improvement in recall and overall F1 score. This improveme
 
 ---
 
-### Per-Entity Analysis
+### Per-Entity Insights
 
-- **LOC** had the highest precision in Model 1, but still suffered from low recall  
-- **PER** performed the worst due to variability in naming and informal references  
-- **ORG** showed moderate performance but was still limited by data scarcity  
+- **LOC** had high precision but low recall in Model 1  
+- **PER** performed worst due to variability in names and informal usage  
+- **ORG** showed moderate performance but improved with more data  
 
-Overall, all entity types improved in Model 2 due to increased training data.
+All entity types improved in Model 2 with expanded annotations.
 
 ---
 
