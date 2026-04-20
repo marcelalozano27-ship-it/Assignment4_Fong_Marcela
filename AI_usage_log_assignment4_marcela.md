@@ -104,3 +104,20 @@ I learned that it's important to be incredibly consistent in labeling in order f
 * **Any AI errors found?**  
 No errors
 \---
+
+### General ways to improve models on domain specific datasets
+
+* **What task were you trying to do?**  
+I was looking for general ways to fine tune the model on our dataset.
+* **What prompt did you use?**  
+"What can we do to improve an NER model on informal Twitter Text"
+* **What did AI suggest?**  
+AI suggested more specific training examples, more specific annotation guidelines, ensure that the preprocessing is domain specific, and error driven label refinement.
+* **What did you modify?**  
+We added additional labeled examples for training
+* **Why did you modify it?**  
+I wanted the model to learn the patterns specific to this data.
+* **What did you learn?**  
+I learned that preprocessing must also be tailored to the type of data that is going to be analyzed.
+* **Any AI errors found?**  
+None
